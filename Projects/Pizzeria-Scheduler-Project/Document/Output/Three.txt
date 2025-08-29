@@ -1,0 +1,720 @@
+==== MINUTE 1 ====
+==== RESTAURANT 0 ====
+Maria,PREPARING,0,3,10
+John,PENDING,0,1,4
+Chef0,Maria
+Chef1,Maria
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,PREPARING,0,3,10
+Chef0,Maria
+Chef1,Maria
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 2 ====
+==== RESTAURANT 0 ====
+Maria,PREPARING,0,3,8
+John,PENDING,0,1,4
+Chef0,Maria
+Chef1,Maria
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,PREPARING,0,3,8
+Chef0,Maria
+Chef1,Maria
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 3 ====
+==== RESTAURANT 0 ====
+Maria,PREPARING,0,3,6
+John,PENDING,0,1,4
+Chef0,Maria
+Chef1,Maria
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,PREPARING,0,3,6
+Chef0,Maria
+Chef1,Maria
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 4 ====
+==== RESTAURANT 0 ====
+Maria,CHEF_WAITING,2,1,4
+John,PENDING,0,1,4
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,CHEF_WAITING,2,1,4
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 5 ====
+==== RESTAURANT 0 ====
+Maria,PREPARING,2,1,3
+John,PREPARING,0,1,3
+Chef0,Maria
+Chef1,John
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,PREPARING,2,1,3
+Chef0,Maria
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 6 ====
+==== RESTAURANT 0 ====
+Maria,PREPARING,2,1,2
+John,PREPARING,0,1,2
+Chef0,Maria
+Chef1,John
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,PREPARING,2,1,2
+Chef0,Maria
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 7 ====
+==== RESTAURANT 0 ====
+Maria,PREPARING,2,1,1
+John,PREPARING,0,1,1
+Chef0,Maria
+Chef1,John
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,PREPARING,2,1,1
+Chef0,Maria
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 8 ====
+==== RESTAURANT 0 ====
+Maria,OVEN_WAITING,0,3,18
+John,OVEN_WAITING,0,1,6
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,OVEN_WAITING,0,3,18
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 9 ====
+==== RESTAURANT 0 ====
+Maria,OVEN_PREPARING,0,3,16
+John,OVEN_WAITING,0,1,6
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,Maria
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,OVEN_PREPARING,0,3,16
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,Maria
+Driver0,None
+Driver1,None
+==== MINUTE 10 ====
+==== RESTAURANT 0 ====
+Maria,OVEN_PREPARING,0,3,14
+John,OVEN_WAITING,0,1,6
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,Maria
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,OVEN_PREPARING,0,3,14
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,Maria
+Driver0,None
+Driver1,None
+==== MINUTE 11 ====
+==== RESTAURANT 0 ====
+Maria,OVEN_PREPARING,0,3,12
+John,OVEN_WAITING,0,1,6
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,Maria
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,OVEN_PREPARING,0,3,12
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,Maria
+Driver0,None
+Driver1,None
+==== MINUTE 12 ====
+==== RESTAURANT 0 ====
+Maria,OVEN_PREPARING,0,3,10
+John,OVEN_WAITING,0,1,6
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,Maria
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,OVEN_PREPARING,0,3,10
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,Maria
+Driver0,None
+Driver1,None
+==== MINUTE 13 ====
+==== RESTAURANT 0 ====
+Maria,OVEN_PREPARING,0,3,8
+John,OVEN_WAITING,0,1,6
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,Maria
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,OVEN_PREPARING,0,3,8
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,Maria
+Driver0,None
+Driver1,None
+==== MINUTE 14 ====
+==== RESTAURANT 0 ====
+Maria,OVEN_WAITING,2,1,6
+John,OVEN_WAITING,0,1,6
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,OVEN_WAITING,2,1,6
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 15 ====
+==== RESTAURANT 0 ====
+Maria,OVEN_PREPARING,2,1,5
+John,OVEN_PREPARING,0,1,5
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,John
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,OVEN_PREPARING,2,1,5
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 16 ====
+==== RESTAURANT 0 ====
+Maria,OVEN_PREPARING,2,1,4
+John,OVEN_PREPARING,0,1,4
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,John
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,OVEN_PREPARING,2,1,4
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 17 ====
+==== RESTAURANT 0 ====
+Maria,OVEN_PREPARING,2,1,3
+John,OVEN_PREPARING,0,1,3
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,John
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,OVEN_PREPARING,2,1,3
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 18 ====
+==== RESTAURANT 0 ====
+Maria,OVEN_PREPARING,2,1,2
+John,OVEN_PREPARING,0,1,2
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,John
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,OVEN_PREPARING,2,1,2
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 19 ====
+==== RESTAURANT 0 ====
+Maria,OVEN_PREPARING,2,1,1
+John,OVEN_PREPARING,0,1,1
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,John
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,OVEN_PREPARING,2,1,1
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 20 ====
+==== RESTAURANT 0 ====
+Maria,DRIVER_WAITING,3,0,10
+John,DRIVER_WAITING,1,0,20
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,DRIVER_WAITING,3,0,10
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 21 ====
+==== RESTAURANT 0 ====
+Maria,DRIVER_WAITING,3,0,9
+John,DRIVER_WAITING,1,0,19
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DRIVER_WAITING,3,0,9
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== MINUTE 22 ====
+==== RESTAURANT 0 ====
+Maria,DRIVER_WAITING,3,0,8
+John,DRIVER_WAITING,1,0,18
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DRIVER_WAITING,3,0,8
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== MINUTE 23 ====
+==== RESTAURANT 0 ====
+Maria,DRIVER_WAITING,3,0,7
+John,DRIVER_WAITING,1,0,17
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DRIVER_WAITING,3,0,7
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== MINUTE 24 ====
+==== RESTAURANT 0 ====
+Maria,DRIVER_WAITING,3,0,6
+John,DRIVER_WAITING,1,0,16
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DRIVER_WAITING,3,0,6
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== MINUTE 25 ====
+==== RESTAURANT 0 ====
+Maria,DRIVER_WAITING,3,0,5
+John,DRIVER_WAITING,1,0,15
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DRIVER_WAITING,3,0,5
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== MINUTE 26 ====
+==== RESTAURANT 0 ====
+Maria,DRIVER_WAITING,3,0,4
+John,DRIVER_WAITING,1,0,14
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DRIVER_WAITING,3,0,4
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== MINUTE 27 ====
+==== RESTAURANT 0 ====
+Maria,DRIVER_WAITING,3,0,3
+John,DRIVER_WAITING,1,0,13
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DRIVER_WAITING,3,0,3
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== MINUTE 28 ====
+==== RESTAURANT 0 ====
+Maria,DRIVER_WAITING,3,0,2
+John,DRIVER_WAITING,1,0,12
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DRIVER_WAITING,3,0,2
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== MINUTE 29 ====
+==== RESTAURANT 0 ====
+Maria,DRIVER_WAITING,3,0,1
+John,DRIVER_WAITING,1,0,11
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DRIVER_WAITING,3,0,1
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== MINUTE 30 ====
+==== RESTAURANT 0 ====
+Maria,DELIVERED,3,0,0
+John,DRIVER_WAITING,1,0,10
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DELIVERED,3,0,0
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 31 ====
+==== RESTAURANT 0 ====
+Maria,DELIVERED,3,0,0
+John,DRIVER_WAITING,1,0,9
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DELIVERED,3,0,0
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 32 ====
+==== RESTAURANT 0 ====
+Maria,DELIVERED,3,0,0
+John,DRIVER_WAITING,1,0,8
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DELIVERED,3,0,0
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 33 ====
+==== RESTAURANT 0 ====
+Maria,DELIVERED,3,0,0
+John,DRIVER_WAITING,1,0,7
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DELIVERED,3,0,0
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 34 ====
+==== RESTAURANT 0 ====
+Maria,DELIVERED,3,0,0
+John,DRIVER_WAITING,1,0,6
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DELIVERED,3,0,0
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 35 ====
+==== RESTAURANT 0 ====
+Maria,DELIVERED,3,0,0
+John,DRIVER_WAITING,1,0,5
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DELIVERED,3,0,0
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 36 ====
+==== RESTAURANT 0 ====
+Maria,DELIVERED,3,0,0
+John,DRIVER_WAITING,1,0,4
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DELIVERED,3,0,0
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 37 ====
+==== RESTAURANT 0 ====
+Maria,DELIVERED,3,0,0
+John,DRIVER_WAITING,1,0,3
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DELIVERED,3,0,0
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 38 ====
+==== RESTAURANT 0 ====
+Maria,DELIVERED,3,0,0
+John,DRIVER_WAITING,1,0,2
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DELIVERED,3,0,0
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 39 ====
+==== RESTAURANT 0 ====
+Maria,DELIVERED,3,0,0
+John,DRIVER_WAITING,1,0,1
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,John
+==== RESTAURANT 1 ====
+Maria,DELIVERED,3,0,0
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== MINUTE 40 ====
+==== RESTAURANT 0 ====
+Maria,DELIVERED,3,0,0
+John,DELIVERED,1,0,0
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== RESTAURANT 1 ====
+Maria,DELIVERED,3,0,0
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None

@@ -1,0 +1,185 @@
+@startuml 
+class FileParser {
+    - static final String BASE_PATH_STRING
+    + static List<Order> read_file(String fileName)
+}
+
+class Simulation {
+    - String inputFile
+    - List<Order> orders
+    - Scheduler scheduler 
+    - int chefTime
+    - int bakeTime 
+    - int quantum
+    + Simulation()
+    + void run()
+    + void printEndCycleState()
+    + List<Order> getOrders()
+    + void cycle()
+    + int getMinute()
+}
+
+class SimulationThreads {
+    - ExecutorService executorService 
+    - List<Simulation> simulations
+    - CyclicBarrier barrier 
+    - boolean allComplete
+    - AtomicInteger completedSimulations 
+    + SimulationThreads()
+    + void run()
+    - void runSimulation(int simulationIndex)
+}
+
+class Chef {
+    - int id 
+    - Order currentOrder
+    - Pizza currentPizza
+    - int timePreparing
+    + Chef(int id)
+    + int getId()
+    + Order getCurrentOrder()
+    + void setCurrentOrder(Order order)
+    + Pizza getCurrentPizza()
+    + void setCurrentPizza(Pizza pizza)
+    + int getTimePreparing()
+    + void setTimePreparing(int timePreparing)
+    + void prepare()
+    + void preempt()
+}
+
+class Driver {
+    - int id 
+    - Order currentOrder
+    + Driver(int id)
+    + int getId()
+    + Order getCurrentOrder()
+    + void setCurrentOrder()
+    + void deliver()
+}
+
+class Order { 
+    - String person 
+    - int pizzas
+    - int deliveryTime
+    - int priority
+    - boolean inProgress
+    - boolean delivering
+    + List<Pizza> pending 
+    + List<Pizza> preparing
+    + List<Pizza> ovenWaiting
+    + List<Pizza> ovenPreparing
+    + List<Pizza> ready
+    + Order(String person, int pizzas, int deliveryTime, int priority)
+    + String getPerson()
+    + int getSize() 
+    + int getPriority()
+    + int getDeliveryTime()
+    + void setDeliveryTime()
+    + boolean getInProgress()
+    + void toggleInProgress()
+    + boolean getDelivering()
+    + void toggleDelivering()
+    + State getState()
+    + void decrementDeliveryTime()
+    + String toString()
+}
+
+class Oven {
+    - int id 
+    - Order currentOrder
+    - Pizza currentPizza
+    + Oven(int id)
+    + int getId()
+    + Order getCurrentOrder()
+    + void setCurrentOrder()
+    + Pizza getCurrentPizza()
+    + void setCurrentPizza()
+    + void cook()
+}
+
+class Pizza {
+    - int timeLeft
+    + Pizza()
+    + int getTimeLeft()
+    + void setTimeLeft()
+}
+
+enum State {
+    PENDING
+    PREPARING
+    OVEN_WAITING
+    OVEN_PREPARING
+    DRIVER_WAITING
+    DELIVERED
+}
+
+abstract Scheduler {
+    # List<Order> orders 
+    # List<Chef> chefs 
+    # List<Oven> ovens 
+    # List<Driver> drivers 
+    # String strategy 
+    # int chefQuantum
+    # int chefTime 
+    # int bakeTime 
+    # int minute
+    + Scheduler()
+    - void prioritizeList(List<Order> orders)
+    - void initializeWorkers(int chefs, int ovens, int drivers)
+    + List<Chef> getChefs()
+    + List<Oven> getOvens()
+    + List<Driver> getDrivers()
+    + List<Order> getOrders()
+    + int getMinute()
+    + void setMinute(int min)
+    + String getStrategy()
+    # void update()
+    # void incrementMinute()
+    # <abstract> void schedule()
+    + void cycle()
+}
+
+class SchedulerFocused extends Scheduler {
+    + SchedulerFocused()
+    # void schedule()
+}
+
+class SchedulerRoundRobin extends Scheduler {
+    + SchedulerRoundRobin()
+    # void schedule()
+}
+
+class App {
+    + static void main(String[] args)
+    # static void printHelp()
+}
+
+class ThreadedApp {
+    + static void main(String[] args)
+    # static void printHelp()
+}
+
+FileParser "1" --> "*" Order : generates
+
+Simulation "1" --> "*" Order : handles 
+Simulation "1" --> "1" Scheduler : contains 
+SimulationThreads "1" --> "*" Simulation : synchronizes 
+
+Chef "1" --> "1" Order : progresses 
+Chef "1" --> "1" Pizza : prepares
+Driver "1" --> "1" Order : delivers 
+Chef "1" --> "1" Order : progresses 
+Chef "1" --> "1" Pizza : bakes
+
+Order "1" --> "*" Pizzas : contains 
+Order "1" --> "1" State : has 
+
+Scheduler "1" --> "*" Order : prepares
+Scheduler "1" --> "*" Driver : manages 
+Scheduler "1" --> "*" Oven : manages 
+Scheduler "1" --> "*" Chef : manages 
+
+App "1" --> "1" Simulation : instantiates 
+ThreadedApp "1" --> "1" SimulationThreads : generates 
+
+@enduml

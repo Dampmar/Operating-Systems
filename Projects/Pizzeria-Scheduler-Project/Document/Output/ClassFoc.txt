@@ -1,0 +1,117 @@
+==== Minute 1
+Pedro,PREPARING,0,1,2
+Juan,PREPARING,0,3,8
+Chef0,Pedro
+Chef1,Juan
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 2
+Pedro,PREPARING,0,1,1
+Juan,PREPARING,0,3,7
+Chef0,Pedro
+Chef1,Juan
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 3
+Pedro,OVEN_WAITING,0,1,3
+Juan,CHEF_WAITING,1,2,6
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 4
+Pedro,OVEN_PREPARING,0,1,2
+Juan,PREPARING,1,2,4
+Chef0,Juan
+Chef1,Juan
+Oven0,Pedro
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 5
+Pedro,OVEN_PREPARING,0,1,1
+Juan,PREPARING,1,2,2
+Chef0,Juan
+Chef1,Juan
+Oven0,Pedro
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 6
+Pedro,DRIVER_WAITING,1,0,1
+Juan,OVEN_WAITING,0,3,9
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 7
+Pedro,DELIVERED,1,0,0
+Juan,OVEN_PREPARING,0,3,7
+Chef0,None
+Chef1,None
+Oven0,Juan
+Oven1,Juan
+Driver0,None
+Driver1,None
+==== Minute 8
+Pedro,DELIVERED,1,0,0
+Juan,OVEN_PREPARING,0,3,5
+Chef0,None
+Chef1,None
+Oven0,Juan
+Oven1,Juan
+Driver0,None
+Driver1,None
+==== Minute 9
+Pedro,DELIVERED,1,0,0
+Juan,OVEN_WAITING,2,1,3
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 10
+Pedro,DELIVERED,1,0,0
+Juan,OVEN_PREPARING,2,1,2
+Chef0,None
+Chef1,None
+Oven0,Juan
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 11
+Pedro,DELIVERED,1,0,0
+Juan,OVEN_PREPARING,2,1,1
+Chef0,None
+Chef1,None
+Oven0,Juan
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 12
+Pedro,DELIVERED,1,0,0
+Juan,DRIVER_WAITING,3,0,1
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 13
+Pedro,DELIVERED,1,0,0
+Juan,DELIVERED,3,0,0
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None

@@ -1,0 +1,240 @@
+==== Minute 1
+Maria,PREPARING,0,3,10
+Chef0,Maria
+Chef1,Maria
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 2
+Maria,PREPARING,0,3,8
+Chef0,Maria
+Chef1,Maria
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 3
+Maria,PREPARING,0,3,6
+Chef0,Maria
+Chef1,Maria
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 4
+Maria,CHEF_WAITING,2,1,4
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 5
+Maria,PREPARING,2,1,3
+Chef0,Maria
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 6
+Maria,PREPARING,2,1,2
+Chef0,Maria
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 7
+Maria,PREPARING,2,1,1
+Chef0,Maria
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 8
+Maria,OVEN_WAITING,0,3,18
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 9
+Maria,OVEN_PREPARING,0,3,16
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,Maria
+Driver0,None
+Driver1,None
+==== Minute 10
+Maria,OVEN_PREPARING,0,3,14
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,Maria
+Driver0,None
+Driver1,None
+==== Minute 11
+Maria,OVEN_PREPARING,0,3,12
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,Maria
+Driver0,None
+Driver1,None
+==== Minute 12
+Maria,OVEN_PREPARING,0,3,10
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,Maria
+Driver0,None
+Driver1,None
+==== Minute 13
+Maria,OVEN_PREPARING,0,3,8
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,Maria
+Driver0,None
+Driver1,None
+==== Minute 14
+Maria,OVEN_WAITING,2,1,6
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 15
+Maria,OVEN_PREPARING,2,1,5
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 16
+Maria,OVEN_PREPARING,2,1,4
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 17
+Maria,OVEN_PREPARING,2,1,3
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 18
+Maria,OVEN_PREPARING,2,1,2
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 19
+Maria,OVEN_PREPARING,2,1,1
+Chef0,None
+Chef1,None
+Oven0,Maria
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 20
+Maria,DRIVER_WAITING,3,0,10
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
+==== Minute 21
+Maria,DRIVER_WAITING,3,0,9
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== Minute 22
+Maria,DRIVER_WAITING,3,0,8
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== Minute 23
+Maria,DRIVER_WAITING,3,0,7
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== Minute 24
+Maria,DRIVER_WAITING,3,0,6
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== Minute 25
+Maria,DRIVER_WAITING,3,0,5
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== Minute 26
+Maria,DRIVER_WAITING,3,0,4
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== Minute 27
+Maria,DRIVER_WAITING,3,0,3
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== Minute 28
+Maria,DRIVER_WAITING,3,0,2
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== Minute 29
+Maria,DRIVER_WAITING,3,0,1
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,Maria
+Driver1,None
+==== Minute 30
+Maria,DELIVERED,3,0,0
+Chef0,None
+Chef1,None
+Oven0,None
+Oven1,None
+Driver0,None
+Driver1,None
